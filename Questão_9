@@ -1,0 +1,41 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Dimensões da imagem
+altura = 200
+largura = 200
+
+# Cria imagem preta com 3 canais RGB
+imagem = np.zeros((altura, largura, 3), dtype=np.uint8)
+
+# Centro automático da imagem
+centro_x = (largura - 1) / 2
+centro_y = (altura - 1) / 2
+
+# Grade de coordenadas dos pixels
+y, x = np.ogrid[:altura, :largura]
+
+# Distância de cada pixel até o centro
+distancia = np.sqrt((x - centro_x) ** 2 + (y - centro_y) ** 2)
+
+# Raios dos círculos
+raio_externo = 80
+raio_interno = 55
+raio_central = 20
+
+# Círculo externo branco
+mascara_externa = distancia <= raio_externo
+imagem[mascara_externa] = [255, 255, 255]
+
+# Círculo interno cinza
+mascara_interna = distancia <= raio_interno
+imagem[mascara_interna] = [128, 128, 128]
+
+# Círculo central vermelho
+mascara_central = distancia <= raio_central
+imagem[mascara_central] = [255, 0, 0]
+
+# Exibe a imagem
+plt.imshow(imagem)
+plt.axis('off')
+plt.show()
