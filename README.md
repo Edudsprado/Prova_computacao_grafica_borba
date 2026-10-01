@@ -9,7 +9,7 @@
 ### Integrantes
 
 * **Eduardo dos Santos Prado**
-* **Nathan**
+* **Natan gomes biazon**
 
 ---
 
