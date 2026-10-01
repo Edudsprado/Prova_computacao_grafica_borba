@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+imagem = np.zeros((120, 160, 3), dtype=np.uint8)
+
+imagem[20:100, 30:130] = [255, 0, 0]   # Vermelho
+imagem[40:80, 60:100] = [0, 255, 0]    # Verde
+imagem[50:70, 70:90] = [0, 0, 255]     # Azul
+
+plt.imshow(imagem)
+plt.show()
