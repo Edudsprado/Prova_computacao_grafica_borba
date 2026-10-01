@@ -1,0 +1,5 @@
+import numpy as np
+
+imagem = np.zeros((100, 100, 4), dtype=np.uint8)
+imagem[:, :, 0] = 255
+imagem[:, :, 3] = 255
