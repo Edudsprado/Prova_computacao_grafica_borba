@@ -9,7 +9,7 @@
 ### Integrantes
 
 * **Eduardo dos Santos Prado**
-* **Natan gomes biazon**
+* **Natan Gomes Biazon**
 
 ---
 
@@ -346,7 +346,7 @@ Os exercícios também reforçam a diferença entre **RGB e RGBA**, a importânc
 ## Integrantes
 
 **Eduardo dos Santos Prado**
-**Nathan**
+**Natan Gomes Biazon**
 
 **Disciplina:** Computação Gráfica e Processamento de Imagens
 **Professor:** João Francisco Borba
