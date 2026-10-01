@@ -346,6 +346,7 @@ Os exercícios também reforçam a diferença entre **RGB e RGBA**, a importânc
 ## Integrantes
 
 **Eduardo dos Santos Prado**
+
 **Natan Gomes Biazon**
 
 **Disciplina:** Computação Gráfica e Processamento de Imagens
