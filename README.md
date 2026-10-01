@@ -350,4 +350,5 @@ Os exercícios também reforçam a diferença entre **RGB e RGBA**, a importânc
 **Natan Gomes Biazon**
 
 **Disciplina:** Computação Gráfica e Processamento de Imagens
+
 **Professor:** João Francisco Borba
